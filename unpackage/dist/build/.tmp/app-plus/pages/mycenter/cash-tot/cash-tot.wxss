@@ -1,0 +1,18 @@
+
+page{background: #f5f5f5;}
+.cashhead{width:100%;height: 305rpx;background: -webkit-gradient(linear,left top, right top,from(#fa4f6f),to(#fe756e));background: -o-linear-gradient(left,#fa4f6f,#fe756e);background: linear-gradient(to right,#fa4f6f,#fe756e);}
+.cash_goback{height:96rpx;line-height: 96rpx;width: 94%;margin: 0 auto;color:#fff;font-size:26rpx;}
+.cashcent{width: 94%;margin: 0 auto;display: -webkit-box;display: -webkit-flex;display: -ms-flexbox;display: flex;-webkit-box-pack: justify;-webkit-justify-content: space-between;-ms-flex-pack: justify;justify-content: space-between;}
+.cashcent_l{margin-top:20rpx;}
+.cashcent_l .cashcent_ltit{color:#fff;font-size:26rpx;padding-left:20rpx;}
+.cashcent_l .cashcent_lmey{font-size:60rpx;color:#fff;font-weight: 600;}
+.cash_btn{width: 180rpx;background: #fff;color:#ff3333;font-size:26rpx;height: 50rpx;line-height: 50rpx;border-radius: 50rpx;text-align: center;letter-spacing: 2rpx;}
+.cashtip{width:94%;padding:20rpx 3%;background: #f03f55;color:#f3f3f3;font-size:24rpx;letter-spacing: 2rpx;}
+.cashview{width:100%;}
+.cashview .cashtab{width: 94%;padding:0 3%;background: #fff;height: 95rpx;display: -webkit-box;display: -webkit-flex;display: -ms-flexbox;display: flex;-webkit-justify-content: space-around;-ms-flex-pack: distribute;justify-content: space-around;}
+.cashview .cashtab .ctli{ line-height: 90rpx;border-bottom: 2rpx solid #fff;color:#333;font-size:26rpx;}
+.cashview .cashtab .ctli.active{border-bottom: 2rpx solid #ff3333;}
+.nomey{width:100%;margin-top:135rpx;}
+.nomey image{width: 96rpx;height:96rpx;margin: 0 auto;display: block;}
+.nomey text{color:#cccccc;font-size:36rpx;display: block;text-align: center;margin-top:20rpx;}
+

@@ -1,0 +1,47 @@
+
+page{background: #f5f5f5;}
+.header{position: fixed;left: 0;top: 0;width: 94%;padding:0 3%;background: #fff;height: 96rpx;line-height: 96rpx;display: -webkit-box;display: -webkit-flex;display: -ms-flexbox;display: flex;}
+.header .goto{font-size:36rpx;color:#333}
+.header .head-titl{width: 100%;text-align: center;font-size:34rpx;color:#000;line-height: 96rpx;}
+/* .header	.serar{font-size: 36upx;color:#333;} */
+.mearch{width: 100%;margin:0 auto;margin-top:120rpx;}
+.mearch-one{width: 94%;padding:20rpx 3%;background: #fff;}
+.mearch_titl{width: 100%;display: -webkit-box;display: -webkit-flex;display: -ms-flexbox;display: flex;-webkit-box-pack: justify;-webkit-justify-content: space-between;-ms-flex-pack: justify;justify-content: space-between;}
+.mearch_titl-le{display: -webkit-box;display: -webkit-flex;display: -ms-flexbox;display: flex;}
+.mearch_titl-le .tit_nam{font-size:30rpx;color:#000;}
+.mearch_titl-le .tit_num{font-size:24rpx;color:#000;margin-left:20rpx;margin-top:5rpx;}
+.mearch_titl-le .tit_num text{color:#f33;}
+.mearch_chooge{font-size:26rpx;color:#f33;}
+.meaimgbox{width: 100%;margin-top:20rpx;}
+.meaimgul{width: 100%;display: -webkit-box;display: -webkit-flex;display: -ms-flexbox;display: flex;}
+.meaimgbox .meli{position: relative;width: 140rpx;height: 140rpx;display: inline-block;margin-right:20rpx;}
+.scrollview{width:100%;-webkit-box-sizing: border-box;box-sizing: border-box; white-space: nowrap;display: -webkit-box;display: -webkit-flex;display: -ms-flexbox;display: flex;}
+.checkb{position: absolute;right:0;top:0;z-index: 99;}
+.meaimgbox .meli .tuimg{position:absolute;left:0;top:0; width: 140rpx;height: 140rpx;
+}
+.meaimguli{width: 140rpx;height:140rpx;}
+.meaimguli image{width: 140rpx;height: 140rpx;}
+/* .meaimgbox .meli .tuimg .tuimg_k{width: 100%;height: 100%;}
+	.choogs{position: absolute;right:0;top:0;z-index: 99;}
+	.choogs .yesimg{width: 40upx;height:40upx;}
+	.choogs .yesimg image{width: 40upx;height:40upx;opacity: 1;} */
+.commt{width: 94%;padding:0 3%;background: #fff;margin-top:20rpx;padding-bottom: 50rpx;}
+.commt_t{width: 100%;height: 80rpx;line-height: 80rpx;display: -webkit-box;display: -webkit-flex;display: -ms-flexbox;display: flex;-webkit-box-pack: justify;-webkit-justify-content: space-between;-ms-flex-pack: justify;justify-content: space-between;}
+.commt_tyu{font-size:30rpx;color:#000;}
+.commt_copy{color:#f33;font-size:26rpx;}
+.commt_copy text{color:#f33;font-size:32rpx;margin-right:10rpx;}
+.commtwo {font-size:26rpx;padding:20rpx;background: #f5f5f5;}
+.footed{width:100%;position: fixed;left:0;bottom:0;background: #fff;}
+.footed .footed_titl{height: 80rpx;line-height: 80rpx;font-size:26rpx;color:#333;text-align: center;}
+.footed .fotcent{width:100%;display: -webkit-box;display: -webkit-flex;display: -ms-flexbox;display: flex;-webkit-justify-content: space-around;-ms-flex-pack: distribute;justify-content: space-around;margin-top:10rpx;}
+.footed .fotcent .cl{width:33%;text-align: center;}
+.footed .fotcent .cl .climg{width:70rpx;height: 70rpx;text-align: center;margin: 0 auto;}
+.footed .fotcent .cl .climg image{width: 100%;height: 100%;}
+.footed .fotcent .cl .wxicon{color: #04d102;font-size:50rpx;}
+.footed .fotcent .cl .copy{color: #28abe3;font-size:50rpx;}
+.footed .fotcent .cl .ipicon{color:#fdebed;font-size:50rpx;}
+.footed .fotcent .cl .text{font-size:26rpx;color:#666;padding:15rpx 0;}
+.viewlogin{  width: 64rpx; height: 64rpx; margin: 0 auto; margin-top:200rpx;  color:#666;  text-align: center; font-size: 24rpx;
+}
+.viewlogin image{ width: 100%;  height: 100%;}
+

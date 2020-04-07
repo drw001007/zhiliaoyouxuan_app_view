@@ -1,0 +1,240 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.hesearchbox.data-v-c40a931a {
+  width: 94%;
+  padding: 20rpx 3%;
+  height: 60rpx;
+  background: #fff;
+  position: relative;
+  top: 0;
+  z-index: 99;
+  background: #fff;
+}
+.hesearchbox .searview.data-v-c40a931a {
+  width: 670rpx;
+  height: 60rpx;
+  margin: 0 auto;
+  background: #eeeeee;
+  border-radius: 10rpx;
+}
+.hesearchbox .searview icon.data-v-c40a931a {
+  margin-left: 10rpx;
+  float: left;
+  margin-top: 10rpx;
+}
+/* .searchbox .searview input{float: left;width: 370upx;height:60upx;line-height: 60upx;	color:#333;font-size:26upx;margin-left: 15upx;}
+	.searchbox .searview .middcose{width: 50upx;height: 60upx;float: left;} */
+.hesearchbox .setaxt.data-v-c40a931a {
+  font-size: 24rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  color: #999999;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 20rpx;
+  float: left;
+}
+.hesearchbox .setaxt view.data-v-c40a931a {
+  color: #333;
+}
+.hesearchbox .searview .middsear.data-v-c40a931a {
+  float: right;
+  width: 110rpx;
+  color: #fff;
+  background: -webkit-gradient(linear, left top, right top, from(#e74766), to(#fe3435));
+  background: -o-linear-gradient(left, #e74766, #fe3435);
+  background: linear-gradient(to right, #e74766, #fe3435);
+  text-align: center;
+  line-height: 60rpx;
+  border-top-right-radius: 10rpx;
+  border-bottom-right-radius: 10rpx;
+  letter-spacing: 4rpx;
+  font-size: 30rpx;
+}
+.station.data-v-c40a931a {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  height: 88rpx;
+}
+.header.data-v-c40a931a {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  position: relative;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  height: 88rpx;
+}
+.header.fixed.data-v-c40a931a {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+}
+.header.absolute.data-v-c40a931a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    background-color: transparent !important;
+}
+.header.line.data-v-c40a931a {
+    -webkit-box-shadow: 0 0 6rpx 0 #ddd;
+            box-shadow: 0 0 6rpx 0 #ddd;
+}
+.header.transparentFixed.data-v-c40a931a {
+    border-bottom: 0;
+    background-color: initial;
+    background-image: initial;
+}
+.header.transparentFixed .left_info.data-v-c40a931a {
+      border: 2rpx solid rgba(0, 0, 0, 0.1);
+      background-color: rgba(255, 255, 255, 0.7);
+      border-radius: 33rpx;
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+}
+.header.transparentFixed.colorWhite .left_info.data-v-c40a931a {
+      border: 2rpx solid rgba(255, 255, 255, 0.3);
+      background-color: rgba(0, 0, 0, 0.2);
+}
+.header.colorWhite .left_info.btnMongol.data-v-c40a931a {
+    border: 2rpx solid rgba(255, 255, 255, 0.3);
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.header.colorWhite .left_info text.data-v-c40a931a {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+.header .left_box.data-v-c40a931a {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 100%;
+}
+.header .left_info.data-v-c40a931a {
+    margin-right: 30rpx;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 56rpx;
+    -webkit-transition: all 0.6s;
+    -o-transition: all 0.6s;
+    transition: all 0.6s;
+    margin-left: 16rpx;
+}
+.header .left_info.btnMongol.data-v-c40a931a {
+      border-radius: 33rpx;
+      border: 2rpx solid rgba(0, 0, 0, 0.1);
+      background-color: rgba(255, 255, 255, 0.7);
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+}
+.header .left_info.btnMongol .back.data-v-c40a931a,
+      .header .left_info.btnMongol .home.data-v-c40a931a {
+        width: 70rpx;
+}
+.header .left_info .back.data-v-c40a931a {
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: auto 55%;
+      width: 56rpx;
+      height: 100%;
+}
+.header .left_info text.data-v-c40a931a {
+      height: 30rpx;
+      width: 2rpx;
+      background-color: rgba(255, 255, 255, 0.4);
+}
+.header .left_info .home.data-v-c40a931a {
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: auto 55%;
+      width: 56rpx;
+      height: 100%;
+}
+.header .title.data-v-c40a931a {
+    height: 88rpx;
+    font-size: 32rpx;
+    padding-left: 30rpx;
+    padding-right: 30rpx;
+    font-weight: 700;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+       text-overflow: ellipsis;
+    white-space: nowrap;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.header .title.center.data-v-c40a931a {
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      -webkit-transform: translateX(-50%);
+          -ms-transform: translateX(-50%);
+              transform: translateX(-50%);
+}
+.header .right_info.data-v-c40a931a {
+    height: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+

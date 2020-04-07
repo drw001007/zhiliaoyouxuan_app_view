@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"status_bar{background:#fff;height:var(--status-bar-height);width:100%; }\n.",[1],"top_view{width:100%;position:fixed;top:0;left:0;background-color:#Fff;height:var (--status-bar-height); padding-top:calc(88upx+var(--status-bar-height));position: relative;}\n",],undefined,{path:"./components/statusbar/statusbar.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./components/statusbar/statusbar.wxml') } }));

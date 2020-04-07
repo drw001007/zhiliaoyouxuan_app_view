@@ -1,0 +1,69 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/search/search",
+    "components/uni-detail/uni-detail",
+    "pages/searchlist/searchlist",
+    "pages/mycenter/mycenter/mycenter",
+    "pages/productdetail/productdetail",
+    "pages/prodlist/prodlist",
+    "pages/mycenter/orderlist/orderlist",
+    "pages/mycenter/cash-tot/cash-tot",
+    "pages/mycenter/login/login",
+    "components/statusbar/statusbar",
+    "pages/ddcoupons/ddcoupons",
+    "pages/jdvoucher/jdvoucher",
+    "pages/mycenter/fans/fans",
+    "pages/mycenter/fanssearch/fanssearch",
+    "pages/mycenter/fans_detail/fans_detail",
+    "pages/mycenter/cicaorder/cicaorder",
+    "pages/mycenter/myset/myset",
+    "pages/share_merchandise/share_merchandise",
+    "pages/webview/webview"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#fff",
+    "backgroundColor": "#F8F8F8",
+    "navigationStyle": "custom",
+    "titleNView": false
+  },
+  "tabBar": {
+    "selectedColor": "#ff6699",
+    "color": "#666666",
+    "backgroundColor": "#FFFFFF",
+    "borderStyle": "black",
+    "list": [
+      {
+        "iconPath": "static/image/tabicon/meun1.png",
+        "selectedIconPath": "static/image/tabicon/meun1.png",
+        "pagePath": "pages/index/index",
+        "text": "淘宝券"
+      },
+      {
+        "iconPath": "static/image/tabicon/meun3.png",
+        "selectedIconPath": "static/image/tabicon/meun3.png",
+        "pagePath": "pages/search/search",
+        "text": "搜索"
+      },
+      {
+        "iconPath": "static/image/tabicon/bootmom-jjyx.png",
+        "selectedIconPath": "static/image/tabicon/bootmom-jjyx.png",
+        "pagePath": "pages/mycenter/mycenter/mycenter",
+        "text": "个人中心"
+      }
+    ]
+  },
+  "nvueCompiler": "uni-app",
+  "renderer": "auto",
+  "splashscreen": {
+    "alwaysShowBeforeRender": true,
+    "autoclose": false
+  },
+  "appname": "知了优选",
+  "compilerVersion": "2.2.0",
+  "usingComponents": {
+    "nav-bar": "/components/zhouWei-navBar/index"
+  }
+}

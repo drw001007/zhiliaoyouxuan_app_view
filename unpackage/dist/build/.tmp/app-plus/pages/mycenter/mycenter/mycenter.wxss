@@ -1,0 +1,471 @@
+
+.status_bar{background:#fff;height:var(--status-bar-height);width:100%;
+}
+.top_view{width:100%;position:fixed;top:0;left:0;background-color:#Fff;height:var (--status-bar-height);
+padding-top:calc(88upx+var(--status-bar-height));position: relative;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+.mycenhead{width: 100%; position: relative;padding-top: calc(88rpx + var (--status-bar-height));}
+	
+	
+	/* .mycenhead .mebg{position: absolute;left: 0;top: 0;width: 100%;height:340upx;}
+.mycenhead .mebg image{width: 100%;height: 100%;} */
+.mycent{ width: 100%;}
+.mycent_set{width: 94%;margin: 0 auto;height:90rpx;line-height: 90rpx;color:#000;text-align: right;font-size:36rpx;}
+.my_info{width: 94%;margin:0 auto;display: -webkit-box;display: -webkit-flex;display: -ms-flexbox;display: flex;margin-top:55rpx;-webkit-box-pack: justify;-webkit-justify-content: space-between;-ms-flex-pack: justify;justify-content: space-between;}
+.my_info .info_l{display: -webkit-box;display: -webkit-flex;display: -ms-flexbox;display: flex;}
+.my_info .info_l .info_headhic{width: 100rpx;height: 100rpx;border-radius: 100%;}
+.my_info .info_l .info_headhic image{width: 100%;height: 100%;border-radius: 100%;}
+.my_info .info_view{margin-left:20rpx;}
+.my_info .info_view .info_name{color:#333;font-size:30rpx;display: -webkit-box;display: -webkit-flex;display: -ms-flexbox;display: flex;}
+.my_info .info_label{color:#fff;margin-left:20rpx;height:40rpx;line-height:40rpx;display: inline-block;background: #f3c856;font-size:24rpx;padding:0 20rpx;border-radius: 30rpx;}
+.my_info .infoqing{margin-top:20rpx;display: -webkit-box;display: -webkit-flex;display: -ms-flexbox;display: flex;}
+.my_info .infoqing-q{color:#666666;font-size:26rpx;}
+.my_info .infoqing-w{margin-left:30rpx;color:#666666;font-size:26rpx;}
+.my_info .inlogo{width: 200rpx;height:60rpx;line-height: 60rpx;text-align: center;border-radius: 60rpx;font-size:30rpx;color:#333;margin-top:20rpx;border:1px solid #999;margin-left:20rpx;font-weight: bold;}
+.info_tx{text-align: center;background: #ffc21f;border-radius:60rpx 0 0 60rpx;-webkit-box-shadow:0 2rpx  10rpx #ffd259;box-shadow:0 2rpx  10rpx #ffd259;}
+.info_tx .tx_mey{color:#fff;font-size:28rpx;font-weight:600;margin-top:10rpx;}
+.info_tx .tx_ent{font-size:24rpx;color:#fff;padding-left: 15rpx;margin-top: 10rpx;}
+.estimate{width: 94%;padding:30rpx 3%;margin-top:10rpx;display: -webkit-box;display: -webkit-flex;display: -ms-flexbox;display: flex;-webkit-justify-content: space-around;-ms-flex-pack: distribute;justify-content: space-around;}
+.viewcash{width: 94%;margin:0 auto;background: #fd214a;border-radius: 20rpx;margin-top:50rpx;}
+.viewcash_one{padding:20rpx 30rpx;display: -webkit-box;display: -webkit-flex;display: -ms-flexbox;display: flex;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;}
+.viewcash_one .est_left{color:#fff;width:400rpx;}
+.viewcash_one .est_left .est_ltisx{color:#fff;font-size:24rpx;}
+.viewcash_one .est_left .est_ltisx  text{font-size:30rpx;margin-left:10rpx;}
+.viewcash_one .est_left .est-tip{font-size:22rpx;margin-top:20rpx;}
+.viewcash_one .est_rig{height: 50rpx;line-height: 50rpx;border-radius: 25rpx;background: #fff;color:#fd214a;font-size:26rpx;padding:0 20rpx; text-align: center;margin-top:20rpx;}
+.estimate .est_li{text-align: center;width: 33%;}
+.estimate .ese-bole{border-left:1rpx solid #efefef;}
+.estimate .est_li .est-q{color:#fff;font-size:36rpx;text-align: center;}
+.estimate .est_li .est-tit{font-size:24rpx;color:#fff;margin-top:16rpx}
+.invit{width: 94%;padding:30rpx 3%; background: #f2f2f2;}
+.invit .invit-one{ display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;  width: 570rpx;margin:30rpx auto;height: 70rpx;line-height:70rpx;border:1px solid #cfcfcf;border-radius: 20rpx;-webkit-box-shadow: 2rpx 2rpx 10rpx #efefef;box-shadow: 2rpx 2rpx 10rpx #efefef;}
+.invit-two{width: 100%; height:110rpx;}
+.invit-two image{width: 100%;height: 100%;}
+.invit-myq{color:#91773a;font-size:26rpx;margin-left:20rpx;}
+.invit-copy{width: 150rpx;height:60rpx;text-align:center;border-left:1px solid #cfcfcf;border-radius: 10rpx 0 0 10rpx;margin-top:5rpx;line-height: 60rpx;color:#666;font-size:26rpx;}
+.matu{width: 100%;margin: 0 auto;}
+.matu .matu_tit{width: 94%;padding: 0 3%;height: 80rpx;line-height: 80rpx;display: -webkit-box;display: -webkit-flex;display: -ms-flexbox;display: flex;border-bottom:1px solid #f5f5f5;}
+.matu .matu_tit .matu_titmain{color:#000000;font-size:26rpx;}
+.matu .matu_tit .matu_titsecd{color:#666666;font-size:24rpx;margin-left:30rpx;}
+.myord{margin-top:20rpx;}
+.myord .ordview {width: 94%;margin: 0 auto;margin-top:20rpx;display: -webkit-box;display: -webkit-flex;display: -ms-flexbox;display: flex;-webkit-justify-content: space-around;-ms-flex-pack: distribute;justify-content: space-around;}
+.myord .ordview .ordli{width: 24%;text-align: center;position: relative;padding:20rpx 0;}
+.myord .ordview .ordli .ordli-ico{width: 51rpx;height: 54rpx;margin: 0 auto;position: relative;}
+.myord .ordview .ordli .ordli-ico image{width: 100%;height: 100%;}
+.myord .ordview .ordli .ordli-wz{color:#333333;font-size:24rpx;margin-top:20rpx;}
+.myord .ordview .ordli .ordli-tip{position: absolute;top: 5rpx;right:40rpx;width: 28rpx;height: 28rpx;border-radius: 25rpx;background:#f33;border:1px solid #f33;color:#fff;text-align: center;line-height:28rpx;font-size:16rpx;}
+.mywall{border-top:10rpx solid #f2f2f2;}
+.mywall .wallview{width:94%;margin: 0 auto;display: -webkit-box;display: -webkit-flex;display: -ms-flexbox;display: flex;-webkit-justify-content: space-around;-ms-flex-pack: distribute;justify-content: space-around;padding:30rpx 0;}
+.mywall .wallview .wabt{text-align: center;color:#333;}
+.mywall .wallview .wabt .wabt-big{font-size:30rpx;}
+.mywall .wallview .wabt .wabt-saml{font-size:24rpx;margin-top:20rpx;}
+.mytools{border-top:10rpx solid #f2f2f2;}
+.mytools .toolsview{width:94%;margin:0 auto;padding:20rpx 0;display: -webkit-box;display: -webkit-flex;display: -ms-flexbox;display: flex; -webkit-flex-wrap: wrap; -ms-flex-wrap: wrap; flex-wrap: wrap;}
+.mytools .toolsview .toli{width: 25%;text-align: center;margin-top: 20rpx;margin-bottom: 30rpx;}
+.mytools .toolsview .toli  .toli-ico{width: 58rpx;height:58rpx;margin:0 auto;}
+.mytools .toolsview .toli .toli-ico image{width: 100%;height:100%;}
+.mytools .toolsview .toli  .toli-wz{text-align: center;color:#333;font-size:26rpx;margin-top:15rpx;}
+.myzhil{width: 100%;
+}
+.myzhil .zhil_tit{width: 94%;padding: 0 3%;height: 80rpx;line-height: 80rpx;display: -webkit-box;display: -webkit-flex;display: -ms-flexbox;display: flex;-webkit-box-pack: justify;-webkit-justify-content: space-between;-ms-flex-pack: justify;justify-content: space-between;  border-bottom:1px solid #f5f5f5;}
+.myzhil .zhil_tit .zhil_titmain{color:#000000;font-size:26rpx;}
+.myzhil .zhil_tit .zhil_titsecd{color:#666666;font-size:24rpx;margin-left:30rpx;}
+.myzhil .zhilview{width: 94%;padding:20rpx 3%;display: -webkit-box;display: -webkit-flex;display: -ms-flexbox;display: flex;-webkit-box-pack: end;-webkit-justify-content: flex-end;-ms-flex-pack: end;justify-content: flex-end;}
+.myzhil .zhilview  .toli{width: 25%;text-align: center;margin-top: 10rpx;}
+.myzhil .zhilview  .toli  .toli-ico{width: 54rpx;height:54rpx;margin:0 auto;}
+.myzhil .zhilview  .toli .toli-ico image{width: 100%;height:100%;}
+.myzhil .zhilview  .toli  .toli-wz{text-align: center;color:#333;font-size:26rpx;margin-top:15rpx;}
+
